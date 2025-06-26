@@ -1,0 +1,9 @@
+docker run -d --name pgvector -e POSTGRES_PASSWORD=1234 -p 5432:5432 ankane/pgvector
+CREATE EXTENSION IF NOT EXISTS vector;
+
+postgresql+psycopg://postgres:1234@localhost:5432/postgres
+
+
+pip install -r requirements.txt
+python embed_and_ingest.py
+uvicorn app:app --reload
