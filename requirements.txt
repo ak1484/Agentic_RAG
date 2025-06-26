@@ -1,0 +1,10 @@
+psycopg[binary]
+langchain
+langgraph
+langsmith
+pgvector
+sqlalchemy
+fastapi
+uvicorn
+google-generativeai
+python-dotenv 

@@ -1,0 +1,9 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# uv and venv
+.venv/
+
+.env
+
+doc.txt
